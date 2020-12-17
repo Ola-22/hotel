@@ -1,0 +1,12 @@
+.MainSlider{
+  margin-left: 12%;
+  overflow: hidden;
+  margin-right: 4%;
+  
+}
+
+@media (min-width: 160px) and (max-width: 600px) {
+  .MainSlider{
+  margin-left: 38%;
+  }
+} 
