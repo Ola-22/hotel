@@ -10,6 +10,7 @@ import { Reservation } from "../../pages/Reservation";
 import { Scroll } from "../Scroll";
 import logo from "../../assets/img/logo.png";
 import "./Sidebar/style.css";
+import { Notfound } from "../404";
 
 import {
   BrowserRouter as Router,
@@ -92,9 +93,12 @@ export function Header() {
             <Scroll />
             <Reservation />
           </Route>
-          <Route path="/">
+          <Route path="/" exact>
             <Scroll />
             <Home />
+          </Route>
+          <Route path="*">
+            <Notfound />
           </Route>
         </Switch>
       </Router>

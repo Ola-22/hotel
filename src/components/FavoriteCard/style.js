@@ -59,10 +59,6 @@ export const FavoriteTitle = styled.h4`
   margin-top: ${(props) => (props.titleFav ? "-120px" : "20px")};
 `;
 export const TitleRoom = styled.h2`
-  /* @font-face {
-    font-family: "Playfair";
-    src: url("../../../../assets/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf");
-  } */
   color: ${(props) => (props.primary ? "#222" : "#fff !important")};
   font-family: "Playfair";
   font-size: 42px;
